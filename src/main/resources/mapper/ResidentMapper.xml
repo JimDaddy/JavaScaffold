@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.dao.mapper.ResidentMapper">
+  <resultMap id="BaseResultMap" type="com.example.demo.dao.model.Resident">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="resident_id" jdbcType="VARCHAR" property="residentId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="mobile_num" jdbcType="VARCHAR" property="mobileNum" />
+    <result column="social_id" jdbcType="VARCHAR" property="socialId" />
+    <result column="created" jdbcType="TIMESTAMP" property="created" />
+    <result column="updated" jdbcType="TIMESTAMP" property="updated" />
+  </resultMap>
+</mapper>
