@@ -7,7 +7,6 @@ public class Resident {
     /**
      * 主键，住户ID
      */
-    @Id
     @Column(name = "resident_id")
     private String residentId;
 
